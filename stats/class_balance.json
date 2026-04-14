@@ -1,0 +1,33 @@
+{
+  "columns": [
+    "Class",
+    "Images",
+    "Objects",
+    "Count on image, average",
+    "Area on image, average (%)"
+  ],
+  "data": [
+    [
+      "crack",
+      1917,
+      322880,
+      168.4298,
+      1.0945
+    ],
+    [
+      "pothole",
+      564,
+      1490,
+      2.6418,
+      1.6199
+    ]
+  ],
+  "description": "Images column counts images containing at least one object of class.",
+  "options": {
+    "sort": {
+      "columnIndex": 2,
+      "order": "desc"
+    },
+    "pageSize": 100
+  }
+}

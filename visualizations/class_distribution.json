@@ -1,0 +1,19 @@
+{
+  "type": "bar",
+  "title": "Class Distribution",
+  "data": {
+    "labels": [
+      "crack",
+      "pothole"
+    ],
+    "values": [
+      322880,
+      1490
+    ],
+    "total": 324370,
+    "percentages": [
+      99.54,
+      0.46
+    ]
+  }
+}

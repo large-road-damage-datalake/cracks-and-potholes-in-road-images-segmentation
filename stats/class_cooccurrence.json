@@ -1,0 +1,19 @@
+{
+  "type": "matrix",
+  "labels": [
+    "crack",
+    "pothole"
+  ],
+  "data": [
+    [
+      1917,
+      248
+    ],
+    [
+      248,
+      564
+    ]
+  ],
+  "title": "Co-occurrence Matrix",
+  "description": "Cell [i,j] is number of images that contain both classes i and j."
+}

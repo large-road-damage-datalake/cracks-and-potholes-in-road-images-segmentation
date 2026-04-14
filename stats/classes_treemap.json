@@ -1,0 +1,19 @@
+{
+  "type": "treemap",
+  "title": "Average area of class objects on image",
+  "series": [
+    {
+      "data": [
+        {
+          "x": "crack",
+          "y": 1.0945
+        },
+        {
+          "x": "pothole",
+          "y": 1.6199
+        }
+      ]
+    }
+  ],
+  "value_unit": "%"
+}

@@ -1,0 +1,15 @@
+{
+  "total_images": 2235,
+  "total_annotations": 324370,
+  "total_classes": 2,
+  "splits_breakdown": {
+    "data": {
+      "images": 2235,
+      "annotations": 324370,
+      "classes": {
+        "crack": 322880,
+        "pothole": 1490
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "histogram",
+  "title": "Distinct classes per image",
+  "series": [
+    {
+      "name": "classes",
+      "data": [
+        {
+          "x": "0",
+          "y": 2
+        },
+        {
+          "x": "1",
+          "y": 1985
+        },
+        {
+          "x": "2",
+          "y": 248
+        }
+      ]
+    }
+  ]
+}
