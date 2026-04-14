@@ -4,7 +4,7 @@
     "id": "cracks-and-potholes-in-road-images-segmentation",
     "name": "Cracks and Potholes in Road Images",
     "short_name": "cracks-potholes-seg",
-    "description": "Segmentation packaging of Cracks and Potholes in Road Images with multiclass masks for road distress annotation (1=crack, 2=pothole).",
+    "description": "Segmentation packaging of Cracks and Potholes in Road Images with multiclass masks for road distress annotation.",
     "year": 2020
   },
   "project_context": {
