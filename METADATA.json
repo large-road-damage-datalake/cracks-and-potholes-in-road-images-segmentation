@@ -21,7 +21,8 @@
       "task_subtype": "semantic_segmentation"
     },
     "segmentation_type": "semantic_segmentation",
-    "task_subtype": "semantic_segmentation"
+    "task_subtype": "semantic_segmentation",
+    "label_taxonomy_version": "road_damage_v1"
   },
   "imaging_setup": {
     "camera": "Highway diagnostic vehicle (HDV) forward camera setup",
@@ -52,13 +53,17 @@
           "id": 1,
           "name": "crack",
           "description": "Cracks and Potholes in Road Images class: crack",
-          "color": "#294F71"
+          "color": "#294F71",
+          "canonical_name": "crack",
+          "instances": 322880
         },
         {
           "id": 2,
           "name": "pothole",
           "description": "Cracks and Potholes in Road Images class: pothole",
-          "color": "#529EE2"
+          "color": "#529EE2",
+          "canonical_name": "pothole",
+          "instances": 1490
         }
       ]
     }
@@ -79,7 +84,7 @@
     "split": {
       "data": {
         "n_images": 2235,
-        "percentage": 1.0,
+        "percentage": 1,
         "n_images_with_annotations": 2233,
         "annotation_coverage": 0.9991,
         "dataset_size": "208.81 MB",
@@ -158,5 +163,48 @@
     "article_title": "Cracks and Potholes in Road Images",
     "journal": "Mendeley Data",
     "year": 2020
+  },
+  "class_taxonomy": {
+    "version": "road_damage_v1",
+    "classes": [
+      {
+        "canonical_name": "crack",
+        "display_name": "Crack",
+        "damage_family": "crack",
+        "damage_subtype": "generic",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "crack",
+          "cracked"
+        ],
+        "source_labels": [
+          "crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "pothole",
+        "display_name": "Pothole",
+        "damage_family": "pothole",
+        "damage_subtype": "generic",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "pothole"
+        ],
+        "source_labels": [
+          "pothole"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      }
+    ],
+    "damage_types": [
+      "crack",
+      "pothole"
+    ],
+    "unresolved_labels": []
   }
 }
