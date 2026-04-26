@@ -6,7 +6,7 @@ Cracks and Potholes in Road Images is a segmentation package built from multicla
 
 - Task: segmentation
 - Images: 2235
-- Annotations: 324370
+- Annotations: 165863
 - Classes: 2 (crack, pothole)
 - Annotation format: paired PNG masks
 

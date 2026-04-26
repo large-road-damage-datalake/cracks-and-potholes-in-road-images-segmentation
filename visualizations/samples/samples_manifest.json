@@ -8,7 +8,7 @@
         "pothole"
       ],
       "num_classes": 2,
-      "objects": 100,
+      "objects": 48,
       "image_size": {
         "width": 1024,
         "height": 640
@@ -21,16 +21,20 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_01_c2_crack-pothole_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "2": "pothole"
+      },
       "slider_ready": true
     },
     {
       "file": "sample_02_c1_crack.jpg",
-      "source": "D:/PhD/Datasets/segmentation/Cracks-and-Potholes-in-Road-Images/converted/images\\917397_RS_290_290RS294095_20435.jpg",
+      "source": "D:/PhD/Datasets/segmentation/Cracks-and-Potholes-in-Road-Images/converted/images\\917400_RS_290_290RS294095_20451.jpg",
       "classes": [
         "crack"
       ],
       "num_classes": 1,
-      "objects": 439,
+      "objects": 227,
       "image_size": {
         "width": 1024,
         "height": 640
@@ -43,16 +47,20 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_02_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "2": "pothole"
+      },
       "slider_ready": true
     },
     {
       "file": "sample_03_c1_crack.jpg",
-      "source": "D:/PhD/Datasets/segmentation/Cracks-and-Potholes-in-Road-Images/converted/images\\1081807_DF_080_080BDF0070_00880.jpg",
+      "source": "D:/PhD/Datasets/segmentation/Cracks-and-Potholes-in-Road-Images/converted/images\\1081804_DF_080_080BDF0070_00875.jpg",
       "classes": [
         "crack"
       ],
       "num_classes": 1,
-      "objects": 483,
+      "objects": 85,
       "image_size": {
         "width": 1024,
         "height": 630
@@ -65,6 +73,10 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_03_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "2": "pothole"
+      },
       "slider_ready": true
     },
     {
@@ -75,7 +87,7 @@
         "pothole"
       ],
       "num_classes": 2,
-      "objects": 103,
+      "objects": 45,
       "image_size": {
         "width": 1024,
         "height": 640
@@ -88,6 +100,10 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_04_c2_crack-pothole_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "2": "pothole"
+      },
       "slider_ready": true
     },
     {
@@ -97,7 +113,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 91,
+      "objects": 46,
       "image_size": {
         "width": 1024,
         "height": 630
@@ -110,6 +126,10 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_05_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "2": "pothole"
+      },
       "slider_ready": true
     },
     {
@@ -119,7 +139,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 154,
+      "objects": 72,
       "image_size": {
         "width": 1024,
         "height": 630
@@ -132,16 +152,20 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_06_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "2": "pothole"
+      },
       "slider_ready": true
     },
     {
       "file": "sample_07_c1_crack.jpg",
-      "source": "D:/PhD/Datasets/segmentation/Cracks-and-Potholes-in-Road-Images/converted/images\\1083774_DF_080_080BDF0090_00334.jpg",
+      "source": "D:/PhD/Datasets/segmentation/Cracks-and-Potholes-in-Road-Images/converted/images\\1084314_DF_080_080BDF0090_01448.jpg",
       "classes": [
         "crack"
       ],
       "num_classes": 1,
-      "objects": 157,
+      "objects": 46,
       "image_size": {
         "width": 1024,
         "height": 630
@@ -154,6 +178,10 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_07_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "2": "pothole"
+      },
       "slider_ready": true
     },
     {
@@ -163,7 +191,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 259,
+      "objects": 138,
       "image_size": {
         "width": 1024,
         "height": 640
@@ -176,16 +204,20 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_08_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "2": "pothole"
+      },
       "slider_ready": true
     },
     {
       "file": "sample_09_c1_crack.jpg",
-      "source": "D:/PhD/Datasets/segmentation/Cracks-and-Potholes-in-Road-Images/converted/images\\1084513_DF_080_080BDF0090_01797.jpg",
+      "source": "D:/PhD/Datasets/segmentation/Cracks-and-Potholes-in-Road-Images/converted/images\\1081577_DF_080_080BDF0070_00457.jpg",
       "classes": [
         "crack"
       ],
       "num_classes": 1,
-      "objects": 149,
+      "objects": 70,
       "image_size": {
         "width": 1024,
         "height": 630
@@ -198,16 +230,20 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_09_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "2": "pothole"
+      },
       "slider_ready": true
     },
     {
       "file": "sample_10_c1_crack.jpg",
-      "source": "D:/PhD/Datasets/segmentation/Cracks-and-Potholes-in-Road-Images/converted/images\\1090300_DF_070_070BDF0050_05861.jpg",
+      "source": "D:/PhD/Datasets/segmentation/Cracks-and-Potholes-in-Road-Images/converted/images\\1084513_DF_080_080BDF0090_01797.jpg",
       "classes": [
         "crack"
       ],
       "num_classes": 1,
-      "objects": 31,
+      "objects": 83,
       "image_size": {
         "width": 1024,
         "height": 630
@@ -220,6 +256,10 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_10_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "2": "pothole"
+      },
       "slider_ready": true
     }
   ],

@@ -1,14 +1,36 @@
 {
   "total_images": 2235,
-  "total_annotations": 324370,
+  "total_annotations": 165863,
   "total_classes": 2,
+  "annotated_images": 2233,
+  "annotation_coverage": 0.9991051454138703,
+  "image_resolution_histogram": {
+    "1024x630": 1008,
+    "1024x640": 1227
+  },
+  "resolution_details": [
+    {
+      "resolution": "1024x630",
+      "count": 1008
+    },
+    {
+      "resolution": "1024x640",
+      "count": 1227
+    }
+  ],
   "splits_breakdown": {
     "data": {
       "images": 2235,
-      "annotations": 324370,
+      "annotations": 165863,
+      "annotated_images": 2233,
+      "annotation_coverage": 0.9991051454138703,
       "classes": {
-        "crack": 322880,
-        "pothole": 1490
+        "crack": 164388,
+        "pothole": 1475
+      },
+      "image_resolution_histogram": {
+        "1024x630": 1008,
+        "1024x640": 1227
       }
     }
   }

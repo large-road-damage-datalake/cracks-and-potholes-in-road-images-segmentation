@@ -9,17 +9,17 @@
   "data": [
     [
       "crack",
-      1917,
-      322880,
-      168.4298,
-      1.0945
+      1913,
+      164388,
+      85.932,
+      0.928
     ],
     [
       "pothole",
       564,
-      1490,
-      2.6418,
-      1.6199
+      1475,
+      2.6152,
+      1.6198
     ]
   ],
   "description": "Images column counts images containing at least one object of class.",
