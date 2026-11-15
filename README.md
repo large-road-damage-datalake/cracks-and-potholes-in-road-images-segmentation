@@ -19,9 +19,8 @@ Cracks and Potholes in Road Images is a segmentation package built from multicla
 
 ## Notes
 
-- The converted source folder provides multiclass semantic masks in `masks/`.
-- Label encoding in this package is: 0=background, 1=crack, 2=pothole.
-- The `masks_with_roadlanes/` folder is intentionally excluded.
+- The source dataset contains 2,235 road images (`1024x640` and `1024x630`) captured between 2014 and 2017 by Highway Diagnostic Vehicles of the Brazilian National Department of Transport Infrastructure (DNIT) across federal highways in Espírito Santo, Rio Grande do Sul, and the Federal District.
+- Each image in the source release is accompanied by binary PNG masks for the road region, cracks, and potholes (`164,388` connected crack components and `1,475` connected pothole components across `2,233` images with distress annotations).
 
 ## Repository Links
 
